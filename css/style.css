@@ -800,3 +800,299 @@ span,p,ul,ol,a,strong{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* =========================================================================================================
+                                              News Four Part Css
+========================================================================================================= */
+#banner6{
+  background: url(../images/n4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+#banner6::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}
+.news-link i{
+  color: #eee;
+  font-size: 18px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  border:  1px solid rgba(255,255,255,0.7);
+  margin-top: 8px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  transition: all linear .4s;
+}
+.news-link i:hover{
+  background: #1abc9c;
+  border-color: #1abc9c;
+}
+.news-form{
+  margin-bottom: 20px;
+}
+.news-form .form-control{
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.15);
+  font-family: 'Work Sans', sans-serif;
+  height: calc(2.90rem + 2px);
+}
+.news-form .form-control:focus{
+  color: #eee;
+  border-color: #1abc9c;
+  box-shadow: none;
+}
+.news-recent-post a{
+  color: #eee;
+  text-transform: lowercase;
+  transition: all linear .3s;
+}
+.news-recent-post a:hover{
+  color: #1abc9c;
+}
+
+/* ====================================================================================================
+                                            News Five Part Css
+===================================================================================================== */
+#banner7{
+  background: url(../images/n5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+#banner7::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+/* =======================================================================================================
+                                              What I Do Part Css
+======================================================================================================== */
+#banner8{
+  background: url(../images/investor.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+#banner8::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}
+#whatIdo{
+  padding-top: 80px;
+  background: #383838;
+}
+.whatIdo-bg{
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 30px 35px;
+  transition: all linear .4s;
+}
+.whatIdo-bg:hover{
+  background: #282828;
+}
+.whatIdo-content p{
+  color: #eee;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.whatIdo-content h6{
+  color: #1abc9c;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.whatIdo-content strong{
+  font-weight: 600;
+}
+.whatIdo-content a{
+  color: #1abc9c;
+  font-weight: 500;
+}
+.whatIdo-content ul li{
+  color: #eee;
+  font-weight: 400;
+  line-height: 30px;
+}
+#whatIdoForm{
+  padding-top: 15px;
+  padding-bottom: 80px;
+  background: #383838;
+}
+.label-color{
+  color: #eee;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.banner-form .form-check-label{
+  color: rgba(255,255,255,0.7);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+.mr9{
+  margin-top: 10px;
+}
+.whatIdoForm-content{
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 30px 35px;
+  transition: all linear .4s;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.whatIdoForm-content:hover{
+  background: #282828;
+}
+.whatIdoForm-content h6{
+  color: #1abc9c;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.whatIdoForm-content p{
+  color: #eee;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.whatIdoForm-content a{
+  color: #eee;
+  font-weight: 500;
+  transition: all linear .3s;
+}
+.whatIdoForm-content a:hover{
+  color: #1abc9c;
+}
+
+/* ========================================================================================================
+                                                  Contact Page Part Css
+======================================================================================================== */
+#banner9{
+  background: url(../images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+#banner9::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}
+#contact-form{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #383838;
+}
+.mr10{
+  margin-top: 0;
+}
+.contact-form-content{
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 30px 35px;
+  transition: all linear .4s;
+}
+.contact-form-content:hover{
+  background: #282828;
+}
+.contact-form-content p{
+  color: #eee;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form-content h6{
+  color: #1abc9c;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.contact-form-content span{
+  display: block;
+  color: #eee;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.map{
+  margin-top: 20px;
+}
+
+.career{
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 30px 35px;
+  transition: all linear .4s;
+  margin-top: 30px;
+}
+.career:hover{
+  background: #282828;
+}
+.career h6{
+  color: #1abc9c;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.career span{
+  color: #eee;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.career p{
+  color: #1abc9c;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.career h5{
+  color: #eee;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Work Sans', sans-serif;
+}
